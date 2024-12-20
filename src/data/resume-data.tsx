@@ -9,49 +9,52 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Rajnish Kumar",
+  initials: "RK",
+  location: "Bhariwas, Haryana, India",
+  locationLink: "https://maps.app.goo.gl/sEkHWLGRKvEuxZEJ6",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Creative and solution-driven Full Stack Engineer focused on delivering efficient and innovative web applications.",
   summary: (
     <>
-      Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
-      leadership.
+      From crafting intuitive interfaces using modern front-end frameworks to
+      designing efficient server-side applications, I thrive in bridging the gap
+      between user experience and complex back-end processes.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "/profile.jpg",
+  personalWebsiteUrl:
+    "https://drive.google.com/file/d/1uKyd3BhUAi5ZIFpUUflhYDBaXAY8WZSo/view?usp=sharing",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "raj21chahar@gmail.com",
+    tel: "+919350410492",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/Rajnish2105",
         icon: GitHubIcon,
+        title: "Github",
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/rajnish-kumar21",
         icon: LinkedInIcon,
+        title: "LinkedIn",
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/raj21chahar",
         icon: XIcon,
+        title: "X.com",
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Guru Jambheshwar University of Science and Technology",
+      degree: "B.Tech in Electronics and Communication",
+      start: "2021",
+      end: "2025",
     },
   ],
   work: [
@@ -185,56 +188,92 @@ export const RESUME_DATA = {
     "React/Next.js/Remix",
     "TypeScript",
     "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
+    "Postgresql",
+    "Express",
+    "MongoDB",
     "WebSockets",
     "Node.js",
-    "GraphQL",
-    "Relay",
     "System Architecture",
-    "Remote Team Leadership",
+    "Docker",
+    "AWS",
+    "C++ (DSA)",
+    "Go (basic)",
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
-      description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Consultly",
+      title: "SnapRealm",
       techStack: [
         "TypeScript",
         "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
         "PostgreSQL",
-        "Redis",
+        "AWS EC2",
+        "WebSocket",
+        "Node js",
+        "Docker",
+        "Prisma",
+        "NeonDB",
       ],
       description:
-        "Platform for online consultations with real-time video meetings and scheduling",
-      logo: ConsultlyLogo,
+        "Developed SnapRealm, an Instagram-like platform with Next.js, Prisma, PostgreSQL, and Cloudinary. Features include real-time chat with WebSocket, NextAuth authentication, infinite scrolling, responsive navigation, and optimized performance. Deployed on Vercel and EC2 for scalability.",
+      logo: MonitoLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "snaprealm.rajnishchahar.tech",
+        href: "https://snaprealm.rajnishchahar.tech/",
       },
     },
     {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      title: "NextLevelFood",
+      techStack: [
+        "TypeScript",
+        "Next.js",
+        "Prisma",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "Cloudinary",
+      ],
       description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
+        "Developed NextFood, a recipe-sharing app with Next.js, TypeScript, and Prisma, serving multiple users at once. Features include recipe uploads, detailed pages, and contact functionality. Integrated Cloudinary for optimized image management and deployed on Vercel with responsive design, and Used NeonDB (online db) storage.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "nextlevelfood.rajnishchahar.tech",
+        href: "https://nextlevelfood.rajnishchahar.tech",
+      },
+    },
+    {
+      title: "ColorPicker",
+      techStack: [
+        "React.js",
+        "JSS",
+        "Chroma-js",
+        "Material UI",
+        "react-router-dom",
+      ],
+      description:
+        "Create my own color picker using react js. where you can create your own templates for color, pick a color in any format from any provided/made pallet in the webapp. Used Material UI for better UI interface",
       logo: MonitoLogo,
       link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        label: "color-picker",
+        href: "https://color-picker-six-puce.vercel.app/",
+      },
+    },
+  ],
+  opensource: [
+    {
+      title: "Zeus",
+      techStack: [
+        "TypeScript",
+        "Next.js",
+        "Node. JS",
+        "Supabase",
+        "EC2",
+        "PostgreSQL",
+      ],
+      description:
+        "Gym Management System: Built for small gyms, supporting 100 daily users with features like admin dashboard, membership tracking, real-time updates, and a fast, responsive Next.js frontend.",
+      logo: MonitoLogo,
+      link: {
+        label: "zeus.vishawdeepsingh.dev",
+        href: "https://zeus.vishawdeepsingh.in/",
       },
     },
   ],

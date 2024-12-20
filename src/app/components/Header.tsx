@@ -1,4 +1,4 @@
-import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
+import { GlobeIcon, MailIcon, PhoneIcon, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { RESUME_DATA } from "@/data/resume-data";
@@ -29,9 +29,10 @@ interface SocialButtonProps {
   href: string;
   icon: React.ElementType;
   label: string;
+  title: string;
 }
 
-function SocialButton({ href, icon: Icon, label }: SocialButtonProps) {
+function SocialButton({ href, icon: Icon, label, title }: SocialButtonProps) {
   return (
     <Button className="size-8" variant="outline" size="icon" asChild>
       <a
@@ -40,7 +41,7 @@ function SocialButton({ href, icon: Icon, label }: SocialButtonProps) {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Icon className="size-4" aria-hidden="true" />
+        <Icon className="size-4" aria-hidden="true" title={title} />
       </a>
     </Button>
   );
@@ -61,8 +62,9 @@ function ContactButtons({ contact, personalWebsiteUrl }: ContactButtonsProps) {
       {personalWebsiteUrl && (
         <SocialButton
           href={personalWebsiteUrl}
-          icon={GlobeIcon}
+          icon={FileText}
           label="Personal website"
+          title="Personal website"
         />
       )}
       {contact.email && (
@@ -70,6 +72,7 @@ function ContactButtons({ contact, personalWebsiteUrl }: ContactButtonsProps) {
           href={`mailto:${contact.email}`}
           icon={MailIcon}
           label="Email"
+          title="Email"
         />
       )}
       {contact.tel && (
@@ -77,6 +80,7 @@ function ContactButtons({ contact, personalWebsiteUrl }: ContactButtonsProps) {
           href={`tel:${contact.tel}`}
           icon={PhoneIcon}
           label="Phone"
+          title="Phone Number"
         />
       )}
       {contact.social.map((social) => (
@@ -85,6 +89,7 @@ function ContactButtons({ contact, personalWebsiteUrl }: ContactButtonsProps) {
           href={social.url}
           icon={social.icon}
           label={social.name}
+          title={social.title}
         />
       ))}
     </div>
