@@ -185,7 +185,7 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "React/Next.js/Remix",
+    "React/Next.js",
     "TypeScript",
     "Tailwind CSS",
     "Postgresql",
@@ -193,7 +193,6 @@ export const RESUME_DATA = {
     "MongoDB",
     "WebSockets",
     "Node.js",
-    "System Architecture",
     "Docker",
     "AWS",
     "C++ (DSA)",
@@ -274,6 +273,17 @@ export const RESUME_DATA = {
       link: {
         label: "zeus.vishawdeepsingh.dev",
         href: "https://zeus.vishawdeepsingh.in/",
+      },
+    },
+    {
+      title: "Cinny",
+      techStack: ["TypeScript", "JavaScript", "SCSS", "React", "MatrixSDK"],
+      description:
+        "Cinny is an open-source, modern, and user-friendly self-hosted Discord client built with a focus on privacy and customizability. It's designed to be lightweight and provide a more streamlined, distraction-free experience when interacting with Discord.",
+      logo: MonitoLogo,
+      link: {
+        label: "cinny.in",
+        href: "https://cinny.in/",
       },
     },
   ],
