@@ -286,5 +286,25 @@ export const RESUME_DATA = {
         href: "https://cinny.in/",
       },
     },
+    {
+      title: "p5.js Editor",
+      techStack: [
+        "JavaScript",
+        "SCSS",
+        "p5.js",
+        "React",
+        "HCL",
+        "Shell",
+        "Docker",
+        "MDX",
+      ],
+      description:
+        "The p5.js Editor is a website for creating p5.js sketches, with a focus on making coding accessible and inclusive for artists, designers, educators, beginners, and anyone else! You can create, share, or remix p5.js sketches without needing to download or configure anything. It is designed with beginners in mind, limiting features and frills. The editor is free and open-source because we believe software, and the tools to learn it, should be accessible to everyone.",
+      logo: MonitoLogo,
+      link: {
+        label: "editor.p5js.org",
+        href: "https://editor.p5js.org/",
+      },
+    },
   ],
 } as const;
