@@ -255,6 +255,27 @@ export const RESUME_DATA = {
         href: "https://color-picker-six-puce.vercel.app/",
       },
     },
+    {
+      title: "PizzaBut",
+      techStack: [
+        "React",
+        "Express.js",
+        "Tailwind CSS",
+        "JWT",
+        "Mailgun",
+        "Razorpay",
+        "Docker",
+        "AWS EC2",
+        "MongoDB",
+      ],
+      description:
+        "Built PizzaBut, a full-stack pizza ordering platform featuring user authentication with JWT and Mailgun for email verification and password retrieval. Includes real-time order tracking, Razorpay payment integration, custom pizza ordering, and inventory management for admins. Deployed the frontend on Vercel and backend using Docker on AWS EC2.",
+      logo: MonitoLogo,
+      link: {
+        label: "pizzabut.rajnishchahar.tech",
+        href: "https://pizzabut.rajnishchahar.tech/",
+      },
+    },
   ],
   opensource: [
     {
