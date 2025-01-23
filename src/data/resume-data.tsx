@@ -24,7 +24,7 @@ export const RESUME_DATA = {
   ),
   avatarUrl: "/profile.jpg",
   personalWebsiteUrl:
-    "https://drive.google.com/file/d/1uKyd3BhUAi5ZIFpUUflhYDBaXAY8WZSo/view?usp=sharing",
+    "https://drive.google.com/file/d/1U7eUB_RabBh7EnsxhPDpTYeBokH4Chx2/view?usp=sharing",
   contact: {
     email: "raj21chahar@gmail.com",
     tel: "+919350410492",
